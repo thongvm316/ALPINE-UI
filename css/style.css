@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pavanam&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Paytone One", sans-serif;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 122.5rem;
+  margin: auto;
+  padding: 0 2.4rem;
+}
+
+/* Hero */
+.hero {
+  background: url(/img/Rectangle.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 35px;
+  padding-left: 55px;
+}
+.hero .nav .navbar {
+  display: flex;
+}
+.hero .nav .navbar .brand {
+  width: 143px;
+  height: 59px;
+}
+.hero .nav .navbar .list-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.hero .nav .navbar .list-items li a {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* info */
+.info-main {
+  background: linear-gradient(180deg, #020024 0%, rgba(255, 255, 255, 0) 0%, #2f2a29e0 100%);
+  width: 994px;
+  height: 500px;
+  border: 1px solid gray;
+  box-shadow: -11px 17px 14px #0a0a0a54;
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.info-main .container .info-heading {
+  padding-top: 80px;
+  padding-left: 25px;
+  color: #fff;
+}
+.info-main .container .info-heading .title {
+  width: 434px;
+  height: 281px;
+}
+.info-main .container .info-heading .title h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.info-main .container .info-heading .title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.info-main .container .info-heading .title p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Pavanam", sans-serif;
+}
+.info-main .container .info-heading .form-button {
+  margin-top: 35px;
+}
+.info-main .container .info-heading .form-button input {
+  width: 291px;
+  height: 36px;
+  border: 2px solid #8a8684;
+  border-radius: 50px;
+  outline: none;
+  padding: 1rem;
+  background: transparent;
+}
+.info-main .container .info-heading .form-button input::placeholder {
+  color: #696461;
+}
+.info-main .container .info-heading .form-button input[type=text] {
+  color: #fff;
+}
+.info-main .container .info-heading .form-button button {
+  margin-left: 20px;
+  width: 123px;
+  height: 36px;
+  border: 2px solid #ff1640;
+  border-radius: 50px;
+  background: transparent;
+  color: #696461;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
