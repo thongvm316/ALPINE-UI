@@ -67,7 +67,7 @@ a {
 .info-main {
   background: linear-gradient(180deg, #020024 0%, rgba(255, 255, 255, 0) 0%, #2f2a29e0 100%);
   width: 994px;
-  height: 500px;
+  height: auto;
   border: 1px solid gray;
   box-shadow: -11px 17px 14px #0a0a0a54;
   position: absolute;
@@ -127,6 +127,47 @@ a {
   background: transparent;
   color: #696461;
   outline: none;
+}
+.info-main .container .info-heading .line {
+  width: 992px;
+  border: 1px solid gray;
+  margin-top: 80px;
+  margin-bottom: 32px;
+  transform: translateX(-63px);
+}
+.info-main .container .info-heading .social a {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.info-main .container .info-heading .social a .one {
+  width: 83px;
+  height: 18px;
+}
+.info-main .container .info-heading .social a .two {
+  width: 92px;
+  height: 26px;
+}
+.info-main .container .info-heading .social a .three {
+  width: 71px;
+  height: 14px;
+}
+.info-main .container .info-heading .social a .four {
+  width: 79px;
+  height: 15px;
+}
+.info-main .container .info-heading .social a .five {
+  width: 87px;
+  height: 38px;
+}
+.info-main .container .info-heading .social a .six {
+  width: 57px;
+  height: 24px;
+}
+.info-main .container .info-heading .social a:last-child {
+  padding-right: 0;
+}
+.info-main .container .info-heading .social a:first-child {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
