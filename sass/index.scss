@@ -40,10 +40,6 @@ a {
   padding: 0 2.4rem;
 }
 
-// section {
-//   padding: 5.9rem;
-// }
-
 /* Hero */
 .hero {
   background: url(/img/Rectangle.jpg) no-repeat center;
@@ -157,6 +153,7 @@ a {
         a {
           padding-left: 32px;
           padding-right: 32px;
+          display: inline-block;
           .one {
             width: 83px;
             height: 18px;
@@ -164,6 +161,8 @@ a {
           .two {
             width: 92px;
             height: 26px;
+            position: relative;
+            top: 6px;
           }
           .three {
             width: 71px;
@@ -176,15 +175,48 @@ a {
           .five {
             width: 87px;
             height: 38px;
+            position: relative;
+            top: 10px;
           }
           .six {
             width: 57px;
             height: 24px;
           }
         }
-        a:last-child { padding-right: 0; }
-        a:first-child { padding-left: 0; }
+        a:last-child {
+          padding-right: 0;
+        }
+        a:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+    .img-info {
+      display: flex;
+      margin-top: 147px;
+      .img-one {
+        &:nth-child(1) {
+          position: relative;
+          left: 2rem;
+        }
+        &:nth-child(2) {
+          position: relative;
+          top: -5rem;
+          z-index: 999;
+        }
+        &:nth-child(3) {
+          position: relative;
+          right: 2rem;
+        }
       }
     }
   }
+}
+
+/* about-us */
+.about-us {
+  background: url(/img/bg.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
