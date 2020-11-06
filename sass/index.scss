@@ -210,6 +210,78 @@ a {
         }
       }
     }
+    .marketing-bl {
+      display: flex;
+      justify-content: center;
+      h1 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 400;
+      }
+      .line-marketing {
+        position: relative;
+        top: 8px;
+        img {
+          padding: 0 7px;
+        }
+      }
+      .btn-mkt {
+        background-color: #74401e;
+        border: none;
+        outline: none;
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    .notification-bl {
+      margin-top: 68px;
+      .row {
+        display: flex;
+        .left {
+          flex-basis: 453px;
+          .btn {
+            display: flex;
+            justify-content: space-around;
+            button {
+              width: 131px;
+              height: 35px;
+              border-radius: 40px;
+              border:none;
+              font-size: 16px;
+              font-weight: 600;
+              outline: none;
+              i {
+                font-size: 20px;
+              }
+            }
+            h3 {
+              font-weight: 500;
+              font-size: 18px;
+              color: #fff;
+              span {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                background-color: #ff1640;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+              }
+            }
+          }
+          .bg-info {
+            display: flex;
+          }
+        }
+        .right {
+          flex-basis: 315px;
+          margin-left: 67px;
+        }
+      }
+    }
   }
 }
 
